@@ -7,14 +7,15 @@ import { polygonZkEVMTestnetFarmConfig } from './polygonZkEVMTestnet'
 import { zkSyncTestnetFarmConfig } from './zkSyncTestnet'
 
 const chainIds: ChainId[] = [
-  ChainId.BSC,
-  ChainId.ETHEREUM,
-  ChainId.POLYGON_ZKEVM,
-  ChainId.ZKSYNC,
-  ChainId.ARBITRUM_ONE,
-  ChainId.LINEA,
-  ChainId.BASE,
-  ChainId.OPBNB,
+  // ChainId.BSC,
+  // ChainId.ETHEREUM,
+  // ChainId.POLYGON_ZKEVM,
+  // ChainId.ZKSYNC,
+  // ChainId.ARBITRUM_ONE,
+  // ChainId.LINEA,
+  // ChainId.BASE,
+  // ChainId.OPBNB,
+  ChainId.BSC_TESTNET,
 ]
 
 export const fetchAllUniversalFarms = async (): Promise<UniversalFarmConfig[]> => {
